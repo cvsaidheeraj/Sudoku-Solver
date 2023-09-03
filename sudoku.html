@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Solver</title>
+    <link rel="stylesheet" href="sudoku.css">
+</head>
+
+<body>
+    <header class="header">
+        <img src="https://www.sudoku.cash/images/sudoku_app_logo.png" alt="Sudoku Logo" class="logo">
+        <h1>Sudoku Solver</h1>
+    </header>
+    <div class="sudoku-container">
+        <div class="input-container">
+            <h2>Input Sudoku</h2>
+            <div id="sudoku-grid-input" class="sudoku-grid">
+                <!-- Create a 9x9 input grid here -->
+            </div>
+            <button id="solve-button">Solve Sudoku</button>
+            <button id="clear-button">Clear</button>
+        </div>
+        <div class="solution-container">
+            <h2>Solution</h2>
+            <div id="sudoku-grid-solution" class="sudoku-grid">
+                <!-- Create a 9x9 solution grid here -->
+            </div>
+        </div>
+    </div>
+    <div id="output" class="output">
+        <!-- Output messages go here -->
+    </div>
+    <script src="sudoku.js"></script>
+</body>
+
+</html>
